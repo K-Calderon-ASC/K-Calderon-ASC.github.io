@@ -10,12 +10,13 @@ function setup() {
 	background(0);
 	fill(0,255,0);
 	rect(0,500,600,100);
-
+	camera.on();
 }
 
 var blobbyBoyMovements = function() {
 	if(keyWentDown("d")){
-		blobbyBoy.position.y += 1;
+		blobbyBoy.position.x += 1;
+		camera.position.x = blobbyBoy.position.x ;
 	}
 }
 
