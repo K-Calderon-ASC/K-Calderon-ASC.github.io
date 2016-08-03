@@ -5,7 +5,7 @@ var blobbyBoyY = 300;
 function setup() {
 	blobbyBoyImg = loadImage("blobby-boy.png");
 	blobbyBoy = createSprite(blobbyBoyX, blobbyBoyY);
-	blobbyBoy.addImage("blobbyBoySprite");
+	blobbyBoy.addImage("blobbyBoyImg");
 	createCanvas(600,600);
 	background(0);
 	fill(0,255,0);
