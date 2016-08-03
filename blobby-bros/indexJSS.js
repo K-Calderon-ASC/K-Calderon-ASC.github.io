@@ -1,3 +1,4 @@
+var gameOver = false;
 var blobbyBoy;
 var blobbyBoyX = 300;
 var blobbyBoyY = 300;
@@ -14,6 +15,15 @@ function setup() {
 
 }
 
+var blobbyBoyMovements = function() {
+	if(keyWentDown("d")){
+		blobbyBoyX += 1;
+	}
+}
+
 function draw() {
 	drawSprites();
+	if(gameOver === false) {
+		blobbyBoyMovements();
+	}
 }
