@@ -15,7 +15,7 @@ function setup() {
 
 var blobbyBoyMovements = function() {
 	if(keyWentDown("d")){
-		blobbyBoy.position.x += 1;
+		blobbyBoy.position.y += 1;
 		camera.position.x = blobbyBoy.position.x ;
 	}
 }
