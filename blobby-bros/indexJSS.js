@@ -17,6 +17,7 @@ var blobbyBoyMovements = function() {
 	if(keyWentDown("d")){
 		blobbyBoy.position.y -= 1;
 		camera.position.x +=1 ;
+		console.log("are you running or nah");
 	}
 }
 
