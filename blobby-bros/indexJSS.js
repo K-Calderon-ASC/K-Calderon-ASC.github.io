@@ -23,7 +23,8 @@ function setup() {
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		 blobbyBoy.position.y -= 10;
-		 
+		 wait(1000);
+		 blobbyBoy.position.y += 10;
 	}
 }
 
