@@ -3,7 +3,6 @@ var blobbyBoy;
 var blobbyBoyY = 500;
 function setup() {
 	createCanvas(600,600);
-	camera.on();
 	blobbyBoyImg = loadImage("blobby-boy.png");
 	blobbyBoy = createSprite(camera.position.x, blobbyBoyY);
 	blobbyBoy.addImage(blobbyBoyImg);
@@ -11,10 +10,11 @@ function setup() {
 	background(0);
 	fill(0,255,0);
 	rect(0,500,600,100);
+	camera.on();
 }
 
 var blobbyBoyMovements = function() {
-	camera.position.x +=5 ;
+	camera.position.x +=1 ;
 	if(keyDown("x")){
 		console.log("are you running or nah");
 		blobbyBoy.position.y -= 10;
