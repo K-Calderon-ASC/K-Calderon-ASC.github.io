@@ -34,7 +34,7 @@ function draw() {
 	if(gameOver === false) {
 		if(x>=30) {
 			block = createSprite(blockX, blockY, 40, 40);
-			blockX -= 1;
+			blockX -= 10;
 			if(blockX===0){
 				blockX = 600;
 				x = 0;
