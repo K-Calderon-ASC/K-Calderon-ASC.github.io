@@ -5,7 +5,7 @@ var block;
 var blockX = 700;
 var blockY = 500;
 var x = 0;
-var MovementX = 1;
+var movementX = 1;
 function setup() {
 	createCanvas(600,600);
 	blobbyBoyImg = loadImage("blobby-boy.png");
