@@ -32,11 +32,11 @@ function draw() {
 	drawSprites();
 	x += 1
 	if(gameOver === false) {
-		background(0);
-		fill(0,255,0);
-		rect(0,500,600,100);
 		if(x>=30) {
 			block = createSprite(blockX, blockY, 40, 40);
+			background(0);
+			fill(0,255,0);
+			rect(0,500,600,100);
 			blockX -= 1;
 			if(blockX===0){
 				blockX = 600;
