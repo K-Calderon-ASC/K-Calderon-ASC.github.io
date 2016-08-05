@@ -4,7 +4,7 @@ var blobbyBoyY = 500;
 function setup() {
 	createCanvas(600,600);
 	blobbyBoyImg = loadImage("blobby-boy.png");
-	blobbyBoy = createSprite((camera.position.x)+300, blobbyBoyY);
+	blobbyBoy = createSprite((camera.position.x), blobbyBoyY);
 	blobbyBoy.addImage(blobbyBoyImg);
 	blobbyBoy.scale = .1;
 	background(0);
@@ -24,7 +24,7 @@ var blobbyBoyMovements = function() {
 function draw() {
 	background(0);
 	fill(0,255,0);
-	rect(camera.position.x,500,600,100);
+	rect((camera.position.x)-300,500,600,100);
 	drawSprites();
 	if(gameOver === false) {
 		blobbyBoyMovements();
