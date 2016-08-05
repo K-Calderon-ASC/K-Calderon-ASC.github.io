@@ -19,7 +19,13 @@ function setup() {
 	fill(0,255,0);
 	rect(0,500,600,100);
 }
-
+function wait(ms) {
+	var start = new Date().getTime();
+	var end = start;
+	while(end < start + ms) {
+		end = new Date().getTime();
+	}
+}
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		 blobbyBoy.position.y -= 10;
