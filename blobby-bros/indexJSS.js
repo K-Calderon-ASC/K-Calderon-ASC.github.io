@@ -9,7 +9,7 @@ function setup() {
 	blobbyBoy.scale = .1;
 	background(0);
 	fill(0,255,0);
-	rect(0,500,600,100);
+	rect(camera.position.x,500,600,100);
 	camera.on();
 }
 
