@@ -14,10 +14,11 @@ function setup() {
 }
 
 var blobbyBoyMovements = function() {
+	camera.position.x +=1 ;
 	if(keyDown("x")){
 		console.log("are you running or nah");
 		blobbyBoy.position.y -= 10;
-		camera.position.x +=1 ;
+		blobbyBoy.position.y-=10;
 	}
 }
 
