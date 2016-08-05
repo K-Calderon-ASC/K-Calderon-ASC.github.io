@@ -18,7 +18,7 @@ var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		console.log("are you running or nah");
 		blobbyBoy.position.y -= 10;
-		blobbyBoy.position.y-=10;
+		blobbyBoy.position.y+=10;
 	}
 }
 
