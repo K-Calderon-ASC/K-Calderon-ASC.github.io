@@ -24,8 +24,11 @@ var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		 blobbyBoy.position.y -= 10;
 		 var theTime = millis();
-		 if(millis()===(theTime+1000)){
-		 	blobbyBoy.position.y += 10;	
+		 while(true){
+		 	if(millis()===(theTime+1000)){
+		 		blobbyBoy.position.y += 10;
+		 		break();
+		 	}
 		 }
 	}
 }
