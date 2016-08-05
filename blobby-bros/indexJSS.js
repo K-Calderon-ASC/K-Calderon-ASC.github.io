@@ -22,20 +22,12 @@ function setup() {
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		 blobbyBoy.position.y -= 10;
-		 if(blobbyBoy.position.y===490){
-		 	blobbyBoy.position.y += 10;
-		 }
+		 
 	}
 }
 
-function draw() {
-	background(0);
-	fill(0,255,0);
-	rect(0,500,600,100);
-	drawSprites();
-	x += 1
-	if(gameOver === false) {
-		if(x>=30) {
+var blockCheck = function() {
+	if(x>=30) {
 			block = createSprite(blockX, blockY, 40, 40);
 			blockX -= 10;
 			if(blockX===0){
@@ -43,6 +35,15 @@ function draw() {
 				x = 0;
 			}
 		}
+}
+function draw() {
+	background(0);
+	fill(0,255,0);
+	rect(0,500,600,100);
+	drawSprites();
+	x += 1
+	if(gameOver === false) {
+		blockCheck();
 		blobbyBoyMovements();
 	}
 }
