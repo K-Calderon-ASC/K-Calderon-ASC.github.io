@@ -16,7 +16,7 @@ function setup() {
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		console.log("are you running or nah");
-		blobbyBoy.position.y -= 1;
+		blobbyBoy.position.y -= 10;
 		camera.position.x +=1 ;
 	}
 }
