@@ -27,7 +27,7 @@ var blobbyBoyMovements = function() {
 		 while(true){
 		 	if(millis()===(theTime+1000)){
 		 		blobbyBoy.position.y += 10;
-		 		break();
+		 		break;
 		 	}
 		 }
 	}
