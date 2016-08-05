@@ -12,9 +12,9 @@ function setup() {
 	blobbyBoy.addImage(blobbyBoyImg);
 	blobbyBoy.scale = .1;
 	blockImg = loadImage("block.png");
-	block = createSprite(blockX, blockY);
-	block.addImage(blockImg);
-	block.scale = .1;
+	block = createSprite(blockX, blockY, 40, 40);
+	// block.addImage(blockImg);
+	// block.scale = .1;
 	background(0);
 	fill(0,255,0);
 	rect(0,500,600,100);
