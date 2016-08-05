@@ -40,6 +40,7 @@ function draw() {
 	background(0);
 	fill(0,255,0);
 	rect(0,500,600,100);
+	text("Help Kevin Dodge his responsiblities!", 10, 10);
 	drawSprites();
 	x += 1;
 	console.log(x);
