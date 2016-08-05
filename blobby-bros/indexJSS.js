@@ -5,6 +5,7 @@ var block;
 var blockX = 700;
 var blockY = 500;
 var x = 0;
+var MovementX = 1;
 function setup() {
 	createCanvas(600,600);
 	blobbyBoyImg = loadImage("blobby-boy.png");
@@ -22,19 +23,25 @@ function setup() {
 
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
-		 blobbyBoy.position.y -= 10;
-		 var theTime = millis();
-		 while(true){
-		 	if(millis()===(theTime+1000)){
-		 		blobbyBoy.position.y += 10;
-		 		break;
-		 	}
+		 if(movementX === 1){
+		 	blobbyBoy.position.y -= 10;
+		 	movementX = -1;
+		 }
+		 else if(movementX === -1){
+		 	blobbyBoy.position.y += 10;
+		 	movementX = 1;
 		 }
 	}
-}
+	}
 
 var blockCheck = function() {
 	if(x>=30) {
+		if(movementX === 1){
+		 	blockY = 500;
+		 }
+		 else if(movementX === -1){
+		 	blockY = 480;
+		 } 
 		block.position.x -= 10;
 		if(block.position.x===0){
 			block.position.x = 700;
