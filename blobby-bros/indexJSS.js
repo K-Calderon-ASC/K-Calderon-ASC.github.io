@@ -2,8 +2,8 @@ var gameOver = false;
 var blobbyBoy;
 var blobbyBoyY = 500;
 var block;
-var blockX = 600;
-var blockY = 300;
+var blockX = 700;
+var blockY = 500;
 var x = 0;
 function setup() {
 	createCanvas(600,600);
@@ -11,8 +11,7 @@ function setup() {
 	blobbyBoy = createSprite(width/2, blobbyBoyY);
 	blobbyBoy.addImage(blobbyBoyImg);
 	blobbyBoy.scale = .1;
-	blockImg = loadImage("block.png");
-	block = createSprite(blockX, blockY, 40, 40);
+	// blockImg = loadImage("block.png");
 	// block.addImage(blockImg);
 	// block.scale = .1;
 	background(0);
@@ -34,7 +33,8 @@ function draw() {
 	x += 1
 	if(gameOver === false) {
 		if(x>=30) {
-			blockX -= 10;
+			block = createSprite(blockX, blockY, 40, 40);
+			blockX -= 1;
 			if(blockX===0){
 				blockX = 600;
 				x = 0;
