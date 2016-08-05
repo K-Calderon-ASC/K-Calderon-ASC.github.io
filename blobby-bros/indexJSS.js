@@ -31,7 +31,7 @@ var blockCheck = function() {
 	if(x>=30) {
 		block.position.x -= 10;
 		if(block.position.x===0){
-			block.position.x = 600;
+			block.position.x = 700;
 			x = 0;
 		}
 		}
