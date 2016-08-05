@@ -29,7 +29,7 @@ function wait(ms) {
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
 		 blobbyBoy.position.y -= 10;
-		 delay(1000);
+		 wait(1000);
 		 blobbyBoy.position.y += 10;
 	}
 }
