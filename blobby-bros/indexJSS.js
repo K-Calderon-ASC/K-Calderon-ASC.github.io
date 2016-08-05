@@ -22,6 +22,9 @@ var blobbyBoyMovements = function() {
 }
 
 function draw() {
+	background(0);
+	fill(0,255,0);
+	rect(0,500,600,100);
 	drawSprites();
 	if(gameOver === false) {
 		blobbyBoyMovements();
