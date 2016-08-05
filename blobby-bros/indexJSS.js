@@ -1,11 +1,10 @@
 var gameOver = false;
 var blobbyBoy;
-var blobbyBoyX = 300;
 var blobbyBoyY = 500;
 function setup() {
 	createCanvas(600,600);
 	blobbyBoyImg = loadImage("blobby-boy.png");
-	blobbyBoy = createSprite(blobbyBoyX, blobbyBoyY);
+	blobbyBoy = createSprite(width/2, blobbyBoyY);
 	blobbyBoy.addImage(blobbyBoyImg);
 	blobbyBoy.scale = .1;
 	background(0);
@@ -15,7 +14,8 @@ function setup() {
 }
 
 var blobbyBoyMovements = function() {
-	while(keyWentDown("d")){
+	if(keyWentDown("d")){
+		while()
 		blobbyBoy.position.y += 1;
 		camera.position.x +=1 ;
 	}
