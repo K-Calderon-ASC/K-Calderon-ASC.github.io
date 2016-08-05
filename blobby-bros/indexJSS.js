@@ -2,8 +2,8 @@ var gameOver = false;
 var blobbyBoy;
 var blobbyBoyY = 500;
 function setup() {
-	camera.on();
 	createCanvas(600,600);
+	camera.on();
 	blobbyBoyImg = loadImage("blobby-boy.png");
 	blobbyBoy = createSprite(camera.position.x, blobbyBoyY);
 	blobbyBoy.addImage(blobbyBoyImg);
