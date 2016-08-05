@@ -29,11 +29,11 @@ var blobbyBoyMovements = function() {
 
 var blockCheck = function() {
 	if(x>=30) {
-			blockX -= 10;
-			if(blockX===0){
-				blockX = 600;
-				x = 0;
-			}
+		blockX -= 10;
+		if(blockX===0){
+			blockX = 600;
+			x = 0;
+		}
 		}
 }
 function draw() {
