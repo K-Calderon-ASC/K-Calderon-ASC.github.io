@@ -11,6 +11,7 @@ function setup() {
 	blobbyBoy = createSprite(width/2, blobbyBoyY);
 	blobbyBoy.addImage(blobbyBoyImg);
 	blobbyBoy.scale = .1;
+	block = createSprite(blockX, blockY, 40, 40);
 	// blockImg = loadImage("block.png");
 	// block.addImage(blockImg);
 	// block.scale = .1;
@@ -28,7 +29,6 @@ var blobbyBoyMovements = function() {
 
 var blockCheck = function() {
 	if(x>=30) {
-			block = createSprite(blockX, blockY, 40, 40);
 			blockX -= 10;
 			if(blockX===0){
 				blockX = 600;
