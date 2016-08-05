@@ -9,22 +9,19 @@ function setup() {
 	blobbyBoy.scale = .1;
 	background(0);
 	fill(0,255,0);
-	rect(camera.position.x,500,600,100);
-	camera.on();
+	rect(0,500,600,100);
 }
 
 var blobbyBoyMovements = function() {
-	camera.position.x +=1 ;
 	if(keyDown("x")){
-		console.log("are you running or nah");
-		blobbyBoy.position.y -= 10;
+		 blobbyBoy.position.y -= 10;
 	}
 }
 
 function draw() {
 	background(0);
 	fill(0,255,0);
-	rect((camera.position.x)-300,500,600,100);
+	rect(0,500,600,100);
 	drawSprites();
 	if(gameOver === false) {
 		blobbyBoyMovements();
