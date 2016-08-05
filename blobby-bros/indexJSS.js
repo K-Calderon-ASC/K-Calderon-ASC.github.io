@@ -23,25 +23,12 @@ function setup() {
 
 var blobbyBoyMovements = function() {
 	if(keyDown("x")){
-		 if(movementX === 1){
 		 	blobbyBoy.position.y -= 10;
-		 	movementX = -1;
-		 }
-		 else if(movementX === -1){
-		 	blobbyBoy.position.y += 10;
-		 	movementX = 1;
-		 }
 	}
 	}
 
 var blockCheck = function() {
 	if(x>=30) {
-		if(movementX === 1){
-		 	blockY = 500;
-		 }
-		 else if(movementX === -1){
-		 	blockY = 480;
-		 } 
 		block.position.x -= 10;
 		if(block.position.x===0){
 			block.position.x = 700;
