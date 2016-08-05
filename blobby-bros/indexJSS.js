@@ -41,7 +41,8 @@ function draw() {
 	fill(0,255,0);
 	rect(0,500,600,100);
 	drawSprites();
-	x += 1
+	x += 1;
+	console.log(x);
 	if(gameOver === false) {
 		blockCheck();
 		blobbyBoyMovements();
