@@ -27,15 +27,20 @@ body {
 }
 
 #projects {
-	top:60%;
+	top:50%;
+	left:10%;
 	
 }
 #aboutme {
-	top:60%;
+	top:50%;
+	left:30%;
 }
 #otherstuff {
-	top:60%;
+	top:50%;
+	left:50%;
 }
 #sayhi {
-	top:60%;
+	top:50%;
+	left:70%;
+
 }
