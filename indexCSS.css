@@ -24,10 +24,14 @@ body {
 	position:absolute;
 }
 
+#homelist li {
+	display:inline;
+}
 .picsforhome {
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+	left:50%;
 }
 #namehomelist{
 	list-style-type: none;
