@@ -35,7 +35,18 @@ body {
 	padding-top: 1px;
 	margin: 0;
 }
-
+#projects {
+	top:60%;
+}
+#aboutme {
+	top:60%;
+}
+#otherstuff {
+	top:60%;
+}
+#sayhi {
+	top:60%;
+}
 #namehomelist li { display: inline; }
 #namehomelist li a {
 	color:white;
