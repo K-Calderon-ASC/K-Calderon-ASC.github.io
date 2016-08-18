@@ -1,3 +1,9 @@
 $(document).ready(function(){
-	$("#welcome").hide(0).delay(1000).fadeIn(10000);
-})
+	$("#welcome")
+		.hide(0)
+		.delay(1000)
+		.fadeIn(3000)
+		.animate(function(){
+			top:30%;
+	},2000);
+});
