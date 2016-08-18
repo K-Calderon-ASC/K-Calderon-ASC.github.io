@@ -12,12 +12,12 @@ body {
 #welcome {
 	font-family:'Open Sans', sans-serif, Oswald;
 	color:white;
-	font-size: 50vw;
+	font-size: 20vw;
 }
 
 
 .picsforhome{
-	width:10vw;
+	width:20vw;
 	display: inline;
 	text-align: center;
 	margin:0;
