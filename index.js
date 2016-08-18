@@ -6,5 +6,5 @@ $(document).ready(function(){
 		.fadeIn(2000)
 		.animate({top:"1%"},2000);
 	$("#homelist")
-		.fadeIn(2000)
+		.fadeIn(2000);
 });
