@@ -21,6 +21,8 @@ body {
 	text-align: center;
 	margin:0;
 	padding:0;
+	position:absolute;
+	top:70%;
 }
 #homelist li { display: inline; }
 
@@ -44,25 +46,4 @@ body {
 .picsforhome {
 	width:200px;
 	height: 200px;
-	position:absolute;
-}
-
-#projects {
-	top:70%;
-	left:30%;
-}
-
-#otherstuff {
-	top:70%;
-	left:40%;
-}
-
-#aboutme {
-	top:70%;
-	left:40%;
-}
-
-#sayhi {
-	top:70%;
-	left:40%;
 }
