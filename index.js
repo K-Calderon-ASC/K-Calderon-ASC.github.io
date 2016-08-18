@@ -9,3 +9,7 @@ $(document).ready(function(){
 		.delay(4500)
 		.fadeIn(2000);
 });
+
+$("#projects").click(function(){
+	$("#projects").animate({top:"40%"},1000)
+})
