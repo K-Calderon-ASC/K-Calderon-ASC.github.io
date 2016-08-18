@@ -5,7 +5,6 @@ $(document).ready(function(){
 		.delay(500)
 		.fadeIn(2000)
 		.animate({top:"1%"},2000)
-		.css("position","static");
 	$("#homelist")
 		.delay(4500)
 		.fadeIn(2000);
