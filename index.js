@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$("#welcomespan").hide(0)
+	$("#welcome").hide(0)
 	$(".picsforhome").hide(0)
-	$("#welcomespan")
+	$("#welcome")
 		.delay(500)
 		.fadeIn(2000)
 		.animate({top:"1%"},2000)
