@@ -3,5 +3,5 @@ $(document).ready(function(){
 		.hide(0)
 		.delay(1000)
 		.fadeIn(3000)
-		.animate({top:"30%"},2000);
+		.animate({top:"10%"},2000);
 });
