@@ -22,11 +22,13 @@ body {
 	margin:0;
 	padding:10px;
 	position:absolute;
-	top:60%;
-	left:30;
 }
-#homelist li { display: inline; }
 
+.picsforhome {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 #namehomelist{
 	list-style-type: none;
 	text-align: center;
