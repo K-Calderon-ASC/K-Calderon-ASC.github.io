@@ -4,15 +4,12 @@ body {
 	background-color:rgb(2, 147, 147);
 	
 }
-#welcomespan {
-	width:100%;
-	text-align: center;
-	top:50%;
-}
+
 #welcome {
 	font-family:'Open Sans', sans-serif, Oswald;
 	color:white;
 	font-size: 20vw;
+	top:50%;
 }
 
 
