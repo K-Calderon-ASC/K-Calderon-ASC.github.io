@@ -4,11 +4,12 @@ body {
 	background-color:rgb(2, 147, 147);
 	
 }
-h1 {
+#welcome {
 	font-family:'Open Sans', sans-serif, Oswald;
 	color:white;
 	text-align: center;
 	font-size: 90px;
+	position:absolute;
 }
 
 
