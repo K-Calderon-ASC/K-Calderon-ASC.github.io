@@ -1,6 +1,7 @@
 body {
 	font-family:'Open Sans', sans-serif, Oswald;
 	color:white;
+	background-color:rgb(2, 147, 147);
 	
 }
 h1 {
@@ -10,10 +11,6 @@ h1 {
 	font-size: 90px;
 }
 
-#home{
-padding:40px;
-background-color:rgb(2, 147, 147);
-}
 
 #homelist{
 	list-style-type: none;
@@ -43,61 +40,4 @@ background-color:rgb(2, 147, 147);
 .picsforhome {
 	width:200px;
 	height: 200px;
-}
-
-#projects {
-	padding:40px;
-	background-color: rgb(34, 167, 167);
-}
-
-#projects p {
-	font-size: 20px;
-}
-
-#projects a{
-	color:white;
-}
-
-
-
-#otherstuff {
-	padding:40px;
-	background-color: rgb(64, 190, 190);
-}
-
-#otherstuff p {
-	font-size: 20px;
-	text-align: center;
-}
-
-.otherstuffpap {
-	width:40%;
-}
-
-.artdescript p {
-	float:right;
-	width:50%;	
-}
-#aboutme {
-	padding:40px;
-	background-color: rgb(102, 212, 212);
-}
-
-#aboutme p{
-	font-size: 30px;
-}
-
-#aboutme ul li{
-	font-size: 30px;
-	padding: 10px;
-}
-#sayhi {
-	font-size: 30px;
-	padding: 40px;
-	background-color: rgb(154, 233, 233);
-}
-
-#sayhi a{
-	color:white;
-
 }
