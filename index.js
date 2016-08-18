@@ -11,5 +11,5 @@ $(document).ready(function(){
 });
 
 $("#projects").click(function(){
-	$("#projects").animate({top:"40%"},1000)
+	$("#homelist").animate({top:"40%"},1000)
 })
