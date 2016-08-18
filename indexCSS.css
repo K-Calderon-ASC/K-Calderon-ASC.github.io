@@ -20,9 +20,10 @@ body {
 	list-style-type: none;
 	text-align: center;
 	margin:0;
-	padding:0;
+	padding:10px;
 	position:absolute;
-	top:70%;
+	top:60%;
+	left:30;
 }
 #homelist li { display: inline; }
 
