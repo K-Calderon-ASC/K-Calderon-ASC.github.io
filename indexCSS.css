@@ -16,7 +16,7 @@ body {
 
 
 .picsforhome{
-	width:20vw;
+	width:15vw;
 	display: inline;
 	text-align: center;
 	margin:0;
@@ -28,7 +28,6 @@ body {
 
 #projects {
 	top:50%;
-	left:10%;
 	
 }
 #aboutme {
