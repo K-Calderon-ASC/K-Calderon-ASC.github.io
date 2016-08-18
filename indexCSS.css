@@ -45,5 +45,24 @@ body {
 	width:200px;
 	height: 200px;
 	position:absolute;
+}
+
+#projects {
 	top:50%;
+	left:30%;
+}
+
+#otherstuff {
+	top:50%;
+	left:50%;
+}
+
+#aboutme {
+	top:30%;
+	left:50%;
+}
+
+#sayhi {
+	top:70%;
+	left:50%;
 }
