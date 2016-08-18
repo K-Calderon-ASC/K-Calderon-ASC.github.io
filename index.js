@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$("#welcome")
 		.delay(500)
 		.fadeIn(2000)
-		.animate({top:"1%"},2000)
+		.animate({top:"0"},2000)
 	$(".picsforhome")
 		.delay(4500)
 		.fadeIn(2000);
