@@ -9,6 +9,7 @@ body {
 	font-family:'Open Sans', sans-serif, Oswald;
 	color:white;
 	font-size: 10vw;
+	padding: 0;
 	position: absolute;
 	top:50%;
 }
