@@ -1,0 +1,16 @@
+$(document)
+	.ready(function(){
+	$("#projects").hide(0)
+	$('#para').hide(0)
+	$("#aboutmelistblock").hide(0)
+	$("#menulist").hide(0)
+	$("#projects")
+		.delay(500)
+		.fadeIn(2000)
+	$("#para")
+		.delay(2500)
+		.fadeIn(500);
+	$("#menulist")
+		.delay(4000)
+		.fadeIn(500);
+})

@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(34, 167, 167);
+	font-family:'Open Sans', sans-serif, Oswald;
+	color:white;
+}
+
+#projects {
+	font-size: 10vw;
+	margin:none;
+}
+
+#para {
+	font-size:50px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+}
+#menulist {
+	list-style-type: none;
+	font-size: 50px;
+	text-align: center;
+}
+
+#menulist li {
+	display:inline;
+	margin: 20px;
+}
+
+#menulist a {
+	color:white;
+	text-decoration: none;
+}
+#menulist a:hover {
+	text-decoration: underline;
+}
