@@ -11,37 +11,46 @@ body {
 	font-size: 10vw;
 	padding: 0;
 	position: absolute;
-	left: 0;
-	right: 0;
+	top:50%;
 	margin:10%;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 
 .picsforhome{
-	width:20vw;
+	width:15vw;
 	display: inline;
 	text-align: center;
 	margin:0;
 	padding:10px;
 	position:absolute;
-	top:60%;
-	left:25%;
 }
 
 #projects {
-	top:50%;
+	top:60%;
+	left:10%;
 	
 }
 #aboutme {
-	top:50%;
+	top:60%;
 	left:30%;
 }
 #otherstuff {
-	top:50%;
+	top:60%;
 	left:50%;
 }
 #sayhi {
-	top:50%;
+	top:60%;
 	left:70%;
 
+}
+
+#link {
+	font-size:7vw;
+	color:white;
+	position:absolute;
+	top:30%;
+	left:0;
+	text-decoration: none;
 }
