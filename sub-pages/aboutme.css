@@ -1,0 +1,18 @@
+body {
+	background-color:  rgb(102, 212, 212);
+	font-family:'Open Sans', sans-serif, Oswald;
+	color:white;
+}
+
+#aboutme {
+	font-size: 10vw;
+}
+
+p {
+	font-size:50px;
+}
+
+#aboutmelistblock {
+	text-align: center;
+	list-style-type: none;
+}
