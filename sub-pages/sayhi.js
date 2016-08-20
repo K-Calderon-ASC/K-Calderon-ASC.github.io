@@ -1,0 +1,15 @@
+$(document)
+	.ready(function(){
+	$("#sayhi").hide(0)
+	$('#main').hide(0)
+	$("#menulist").hide(0)
+	$("#sayhi")
+		.delay(500)
+		.fadeIn(2000)
+	$("#main")
+		.delay(2500)
+		.fadeIn(500);
+	$("#menulist")
+		.delay(4000)
+		.fadeIn(500);
+})
