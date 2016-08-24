@@ -1,0 +1,42 @@
+body {
+	background-color: rgb(64, 190, 190);
+	color:white;
+	font-family:'Open Sans', sans-serif, Oswald;
+}
+
+#otherstuff {
+	font-size: 10vw;
+}
+span {
+	font-size:30px;
+}
+img {
+	max-width:30%;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+.arrows {
+	width:5vw;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 0px;
+	
+}
+
+#menulist li {
+	text-align: center;
+	display:inline;
+	margin: 20px;
+	font-size: 30px;
+}
+
+#menulist a {
+	color:white;
+	text-decoration: none;
+}
+#menulist a:hover {
+	text-decoration: underline;
+}
