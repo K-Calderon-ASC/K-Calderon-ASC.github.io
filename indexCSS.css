@@ -1,57 +1,12 @@
 body {
-	font-family:'Open Sans', sans-serif, Oswald;
-	color:white;
-	background-color:rgb(2, 147, 147);
-	
+    background: white;
+    background-size: contain;
 }
 
-#welcome {
-	font-family:'Open Sans', sans-serif, Oswald;
-	color:white;
-	font-size: 10vw;
-	padding: 0;
-	position: absolute;
-	top:50%;
-	margin:10%;
-	margin-bottom: 0;
-	margin-top: 0;
+img {
+    height: 300px;
 }
 
-
-.picsforhome{
-	width:15vw;
-	display: inline;
-	text-align: center;
-	margin:0;
-	padding:10px;
-	position:absolute;
-}
-
-#projects {
-	top:60%;
-	left:10%;
-	
-}
 #aboutme {
-	top:60%;
-	left:30%;
+/*    border-radius: 400px;*/
 }
-#otherstuff {
-	top:60%;
-	left:50%;
-}
-#sayhi {
-	top:60%;
-	left:70%;
-
-}
-
-#link {
-	font-size:7vw;
-	color:white;
-	position:absolute;
-	top:30%;
-	left:0;
-	text-decoration: none;
-}
-
