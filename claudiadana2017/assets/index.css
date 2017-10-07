@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+/*change this soon*/
+a {
+    color: white;
+}
+nav {
+    list-style: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: aliceblue;
+    background: navy ;
+    width: 100%;
+    position: fixed;  
+}
+nav img {
+    height: 30px;
+}
+nav li {
+    display: inline;
+    margin: 20px 10px;
+}
+.section {
+    width: 100%;
+
+}
+#slideshow {
+    background: red;
+    padding-top: 64px;
+}
+
+#theperson {
+    background: green;
+    
+}
+
+#themessage {
+    background: blue;
+    
+}
+
+#whyher {
+    background: yellow;
+    
+}
+
+#movement {
+    background: orange;
+    
+}
+
+#contactus {
+    background: brown;
+    text-align: center;
+}
+#contactus input{
+    margin: 15px;
+}
+
+.inputfield {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#theirmessage {
+    width: 550px;
+    height: 200px;
+    font-size: 15px;
+}
+
+#contactus button {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#contactus ul {
+    list-style-type: none;
+}
+
+#contactus li {
+    display: inline;
+}
+
+@media screen and (max-device-width: 450px) {
+    #contactus input{
+        margin: 15px;
+    }
+    
+    .inputfield {
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #theirmessage {
+        width: 550px;
+        height: 200px;
+        font-size: 15px;
+    }
+    
+    #contactus button {
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        margin: 10px;
+    }
+    
+    #contactus ul {
+        list-style-type: none;
+    }
+    
+    #contactus li {
+        display: inline;
+    }
+
+}
