@@ -1,12 +1,57 @@
 body {
-    background: white;
-    background-size: contain;
+    font-family: 'Roboto Slab', serif;
 }
 
-img {
-    height: 300px;
+/*heading configs*/
+#heading {
+    text-align: center;
 }
 
-#aboutme {
-/*    border-radius: 400px;*/
+#heading img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+#menu {
+    text-align: center;
+}
+#menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+}
+
+#menu img {
+    height: 100px;
+}
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.section {
+    text-align: center;
+}
+
+#contactme input {
+
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#contactme textarea {
+
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
+    height: 80px;
+    width: 330px;
+}
+
+#contactme button {
+    background-color: white;
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
 }

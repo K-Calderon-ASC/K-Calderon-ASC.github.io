@@ -4,20 +4,85 @@
 		<title>Kevin Calderon</title>
 	</head>
 	<link rel="stylesheet" href="indexCSS.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<body>
-        <h1 id="welcome">Welcome</h1>
-        <div><a href="#"><img class="picsforhome" src="https://media.giphy.com/media/xT39Dmsx84LTPIqkg0/giphy.gif" id="projects"></a>
-        <a href=""><img src="https://media.giphy.com/media/3o6vXWNBlXCTB0Zjag/giphy.gif"></a></div>
-        <div><a href="google.com"><img src="https://media.giphy.com/media/3oEhmGh5nx3MZP98gU/giphy.gif"></a>
-        <a href="#"><img class="picsforhome" src="1469718910493.jpg" id="aboutme"></a></div>
-        <button onclick='$("div").slideUp(1000);'>Click me!</button>
-        <button onclick='$("div").slideDown(1000);'>Now Click me!</button>
-        <p>It's been a good min, bro</p>
-        <a href="google.com">I hate myself for these reasons</a>
-        <p>do the thing bro because aint no party till now</p>
-        <i>I am really tired</i>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="index.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <body>
+        <div id="heading">
+            <img src="1469718910493.jpg">
+            <h1>Kevin Calderon</h1>
+            <h2>Programmer. Creator. Life-long Student.</h2>
+            <br>
+        </div>
+        
+        <div id="menu">
+            <ul>
+                <li class="cm"><img src="letter.png"></li>
+                <li class="pr"><img src="coding.png"></li>
+                <li class="am"><img src="avatar.png"></li>
+                <li class="ac"><img src="open-book-top-view.png"></li>
+                <li class="os"><img src="paper-plane.png"></li>
+                <br>
+                <li class="cm">Contact Me</li>
+                <li class="pr">Programming</li>
+                <li class="am">About Me</li>
+                <li class="ac">Academia</li>
+                <li class="os">Other Stuff I do</li>
+            </ul>
+        </div>
+        
+        <div class="section invisible" id="contactme">
+            <br>
+            <h2>Contact Me</h2>
+            <p>Feel Free to Contact Me! I usually respond with 24 hours.</p>
+            <form method="POST" action="http://formspree.io/calderonkevin108@gmail.com">
+                <input type="email" name="email" placeholder="Your email"><br><br>
+                <textarea name="message" placeholder="Your message"></textarea>
+                <br><button type="submit">Send</button>
+            </form>
+            <p>psttt... connnect with me on <a href="http://linkedin.com/in/kevin-calderon/">linkedin!</a></p>
+        </div>
+        
+        <div class="section invisible" id="programming">
+            <h1>Programming Projects</h1>
+            <p>Currently working on developing a website for Chéve, and open to any other projects that may come my way. </p>
+            <p><b>Languages I code in:</b> Javascript, Python, Ruby, C++, Java, PHP</p>
+            <p><b>Libraries and Tools I've Used:</b> JQuery, Firebase, Bootstrap, JSmol, Jmol, Jasmine.js, React, React Native, Sinatra, Ruby on Rails</p>
+            <h3><a href="https://www.instagram.com/chevechokers">Chéve</a></h3>
+            <p>Chéve is a brand of chokers and accessories that features african prints and pendants, tapping into a market and culture previously underrepresented. I have been working on their website for their online launch.</p>
+            <p><b>Built With:</b> CSS, HTML5, JS, JQuery, Bootstrap</p>
+            <h3><a href="http://gen-z.github.io">GEN Z</a></h3>
+            <img src="gen-z.png" height="500px">
+            <p>A website that caters towards GEN Z: current high school and college aged people, and gives them a space to share their opinions on curren events, politics, fashion, art, etc. It's a place where they can voice their opinions, no matter what it may be. This was my final project for All Star Code during the summer of 2016.</p>
+            <p><b>Built With:</b> CSS, HTML5, JS, JQuery, Firebase</p>
+            
+        </div>
+        
+        <div class="section invisible" id="aboutme">
+            <h2>About Me</h2>
+            <p>I'm a current high school senior living in NYC, who enjoys strolling through art museums and iced black coffee (yes, even in the winter). I will be attending Stanford University this fall.</p>
+            <p>I'm a creator at heart, and I love anything and everything that has to do with creation, from art to film to fashion, and most especially coding and the tech industry. I have a deep passion for media and communications, and how we use technology to innovate those connections.</p>
+            <p>I may be young, but I do enjoy a challenge, and always find a way to get the job done ;)</p>
+            <p>Check out my <a href="https://drive.google.com/file/d/1dN14BXMuj-NpKNxk6WWNIozaWkKY7Qnr/view?usp=sharing">resume</a>!</p>
+        </div>
+        
+        <div class="section invisible" id="education">
+            <h2>Academia</h2>
+            <p>I will be attending Stanford University this fall (Class of 2022). Let's go Cardinal!</p>
+            <p>I am a current high school senior in Queens with a GPA of 101.38</p>
+            <p>Over the summer of 2017, I did an online research program called Pioneer Academics. I studied under Professor Miriam Rossi of Vassar College, and published a paper that used data attained x-ray crystallography to find the connection between molecular structures of insecticides and their interactions with the protein receptors in insects. You can read it <a href="https://drive.google.com/file/d/1TJlyJPBivj6pjv4uUHFNEQBlwZ4mmBaX/view?usp=sharing">here</a></p>
+        </div>
+        
+        <div class="section invisible" id="other">
+            <h2>Other Things I do</h2>
+            <p>I'm also a visual artist! Check out my work from the past few years!</p>
+            <img src="sub-pages/hands9.JPG" height="300px"><br>
+            <img src="sub-pages/digital1.jpg"><br>
+            <img src="sub-pages/egypt10.jpg"><br>
+            <img src="sub-pages/mandala10.jpg"><br>
+            <img src="sub-pages/utensils10.jpg"><br>
+        </div>
+    
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="index.js"></script> 
 	</body>
 </html>
